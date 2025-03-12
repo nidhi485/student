@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Search</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        #searchBar {
+            width: 60%;
+            padding: 10px;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+
+        #searchButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-left: 10px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+
+        #studentDetails {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-radius: 8px;
+            display: none;
+        }
+
+        #studentDetails h2 {
+            margin: 0;
+        }
+
+        .details {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Student Information Search</h1>
+        <p>Enter a Student ID to get details:</p>
+        <input type="number" id="searchBar" placeholder="Enter student ID" />
+        <button id="searchButton" onclick="searchStudent()">Search</button>
+
+        <div id="studentDetails">
+            <h2>Student Details</h2>
+            <div class="details" id="detailsName"></div>
+            <div class="details" id="detailsAge"></div>
+            <div class="details" id="detailsGrade"></div>
+            <div class="details" id="detailsSubjects"></div>
+        </div>
+    </div>
+
+    <script>
+        // List of students
+        const students = [
+            { id: 1, first_name: "nidhi", age: 16, grade: 10, subjects: ["Math", "English", "Science"] },
+            { id: 2, first_name: "vidhya", age: 17, grade: 11, subjects: ["History", "Math", "Physics"] },
+            { id: 3, first_name: "mahi", age: 16, grade: 10, subjects: ["Math", "English", "Science"] },
+            { id: 4, first_name: "sneha", age: 17, grade: 11, subjects: ["History", "Math", "Physics"] },
+            { id: 5, first_name: "sravani", age: 15, grade: 9, subjects: ["Biology", "English", "Geography"] },
+            { id: 6, first_name: "raghu", age: 16, grade: 10, subjects: ["Math", "Physics", "English"] },
+            { id: 7, first_name: "aardhya", age: 17, grade: 11, subjects: ["History", "Chemistry", "Math"] },
+            { id: 8, first_name: "raju", age: 15, grade: 9, subjects: ["Geography", "English", "Biology"] },
+            { id: 9, first_name: "vamshi", age: 16, grade: 10, subjects: ["Physics", "Math", "Chemistry"] },
+            { id: 10, first_name: "akhila", age: 17, grade: 11, subjects: ["History", "Physics", "Math"] },
+            { id: 11, first_name: "hasini", age: 15, grade: 9, subjects: ["Math", "Geography", "Science"] },
+            { id: 12, first_name: "deepak", age: 16, grade: 10, subjects: ["Biology", "Math", "English"] },
+            { id: 13, first_name: "rajesh", age: 17, grade: 11, subjects: ["Chemistry", "Math", "Physics"] },
+            { id: 14, first_name: "priya", age: 15, grade: 9, subjects: ["History", "English", "Biology"] },
+            { id: 15, first_name: "neha", age: 16, grade: 10, subjects: ["Math", "Chemistry", "Geography"] },
+            { id: 16, first_name: "vikas", age: 17, grade: 11, subjects: ["Physics", "Chemistry", "Math"] },
+            { id: 17, first_name: "isha", age: 15, grade: 9, subjects: ["Math", "Science", "History"] },
+            { id: 18, first_name: "ashok", age: 16, grade: 10, subjects: ["Biology", "Physics", "Math"] },
+            { id: 19, first_name: "pooja", age: 17, grade: 11, subjects: ["History", "Chemistry", "Geography"] },
+            { id: 20, first_name: "ravi", age: 15, grade: 9, subjects: ["English", "Geography", "Math"] },
+            { id: 21, first_name: "kritika", age: 16, grade: 10, subjects: ["History", "Chemistry", "Biology"] },
+            { id: 22, first_name: "sanjay", age: 17, grade: 11, subjects: ["Physics", "Math", "History"] },
+            { id: 23, first_name: "mahi", age: 15, grade: 9, subjects: ["Biology", "English", "Geography"] }
+        ];
+
+        // Function to search for a student
+        function searchStudent() {
+            const studentId = document.getElementById("searchBar").value;
+            const student = students.find(s => s.id == studentId);
+
+            if (student) {
+                document.getElementById("studentDetails").style.display = "block";
+                document.getElementById("detailsName").textContent = `Name: ${student.first_name}`;
+                document.getElementById("detailsAge").textContent = `Age: ${student.age}`;
+                document.getElementById("detailsGrade").textContent = `Grade: ${student.grade}`;
+                document.getElementById("detailsSubjects").textContent = `Subjects: ${student.subjects.join(', ')}`;
+            } else {
+                document.getElementById("studentDetails").style.display = "none";
+                alert("Student not found");
+            }
+        }
+    </script>
+
+</body>
+</html>

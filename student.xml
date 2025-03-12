@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <id>1</id>
+        <first_name>nidhi</first_name>
+        <age>16</age>
+        <grade>10</grade>
+        <subjects>
+            <subject>Math</subject>
+            <subject>English</subject>
+            <subject>Science</subject>
+        </subjects>
+    </student>
+
+    <student>
+        <id>2</id>
+        <first_name>vidhya</first_name>
+        <age>17</age>
+        <grade>11</grade>
+        <subjects>
+            <subject>History</subject>
+            <subject>Math</subject>
+            <subject>Physics</subject>
+        </subjects>
+    </student>
+
+<students>
+    <student>
+        <id>3</id>
+        <first_name>mahi</first_name>
+        <age>16</age>
+        <grade>10</grade>
+        <subjects>
+            <subject>Math</subject>
+            <subject>English</subject>
+            <subject>Science</subject>
+        </subjects>
+    </student>
+
+    <student>
+        <id>4</id>
+        <first_name>sneha</first_name>
+        <age>17</age>
+        <grade>11</grade>
+        <subjects>
+            <subject>History</subject>
+            <subject>Math</subject>
+            <subject>Physics</subject>
+        </subjects>
+    </student>
+
+    <student>
+        <id>5</id>
+        <first_name>sravani</first_name>
+        <age>15</age>
+        <grade>9</grade>
+        <subjects>
+            <subject>Biology</subject>
+            <subject>English</subject>
+            <subject>Geography</subject>
+        </subjects>
+    </student>
+
+    <student>
+        <id>6</id>
+        <first_name>raghu</first_name>
+        <age>16</age>
+        <grade>10</grade>
+        <subjects>
+            <subject>Math</subject>
+            <subject>Physics</subject>
+            <subject>English</subject>
+        </subjects>
+    </student>
+
+    <student>
+        <id>7</id>
+        <first_name>aardhya</first_name>
+        <age>17</age>
+        <grade>11</grade>
+        <subjects>
+            <subject>History</subject>
+            <subject>Chemistry</subject>
+            <subject>Math</subject>
+        </subjects>
+    </student>
+
+    <student>
+        <id>8</id>
+        <first_name>raju</first_name>
+        <age>15</age>
+        <grade>9</grade>
+        <subjects>
+            <subject>Geography</subject>
+            <subject>English</subject>
+            <subject>Biology</subject>
+        </subjects>
+    </student>
+
+    <student>
+        <id>9</id>
+        <first_name>vamshi</first_name>
+        <age>16</age>
+        <grade>10</grade>
+        <subjects>
+            <subject>Physics</subject>
+            <subject>Math</subject>
+            <subject>Chemistry</subject>
+        </subjects>
+    </student>
+
+    <student>
+        <id>10</id>
+        <first_name>akhila</first_name>
+        <age>17</age>
+        <grade>11</grade>
+        <subjects>
+            <subject>History</subject>
+            <subject>Physics</subject>
+            <subject>Math</subject>
+        </subjects>
+    </student>
+
+    <student>
+        <id>11</id>
+        <first_name>hasini</first_name>
+        <age>15</age>
+        <grade>9</grade>
+        <subjects>
+            <subject>Math</subject>
+            <subject>Geography</subject>
+            <subject>Science</subject>
+        </subjects>
+    </student>
+
+    <student>
+        <id>12</id>
+        <first_name>deepak</first_name>
+        <age>16</age>
+        <grade>10</grade>
+        <subjects>
+            <subject>Biology</subject>
+            <subject>Math</subject>
+            <subject>English</subject>
+        </subjects>
+    </student>
+
+    <student>
+        <id>13</id>
+        <first_name>rajesh</first_name>
+        <age>17</age>
+        <grade>11</grade>
+        <subjects>
+            <subject>Chemistry</subject>
+            <subject>Math</subject>
+            <subject>Physics</subject>
+        </subjects>
+    </student>
+
+    <student>
+        <id>14</id>
+        <first_name>priya</first_name>
+        <age>15</age>
+        <grade>9</grade>
+        <subjects>
+            <subject>History</subject>
+            <subject>English</subject>
+            <subject>Biology</subject>
+        </subjects>
+    </student>
+
+    <student>
+        <id>15</id>
+        <first_name>neha</first_name>
+        <age>16</age>
+        <grade>10</grade>
+        <subjects>
+            <subject>Math</subject>
+            <subject>Chemistry</subject>
+            <subject>Geography</subject>
+        </subjects>
+    </student>
+
+    <student>
+        <id>16</id>
+        <first_name>vikas</first_name>
+        <age>17</age>
+        <grade>11</grade>
+        <subjects>
+            <subject>Physics</subject>
+            <subject>Chemistry</subject>
+            <subject>Math</subject>
+        </subjects>
+    </student>
+
+    <student>
+        <id>17</id>
+        <first_name>isha</first_name>
+        <age>15</age>
+        <grade>9</grade>
+        <subjects>
+            <subject>Math</subject>
+            <subject>Science</subject>
+            <subject>History</subject>
+        </subjects>
+    </student>
+
+    <student>
+        <id>18</id>
+        <first_name>ashok</first_name>
+        <age>16</age>
+        <grade>10</grade>
+        <subjects>
+            <subject>Biology</subject>
+            <subject>Physics</subject>
+            <subject>Math</subject>
+        </subjects>
+    </student>
+
+    <student>
+        <id>19</id>
+        <first_name>pooja</first_name>
+        <age>17</age>
+        <grade>11</grade>
+        <subjects>
+            <subject>History</subject>
+            <subject>Chemistry</subject>
+            <subject>Geography</subject>
+        </subjects>
+    </student>
+
+    <student>
+        <id>20</id>
+        <first_name>ravi</first_name>
+        <age>15</age>
+        <grade>9</grade>
+        <subjects>
+            <subject>English</subject>
+            <subject>Geography</subject>
+            <subject>Math</subject>
+        </subjects>
+    </student>
+
+    <student>
+        <id>21</id>
+        <first_name>kritika</first_name>
+        <age>16</age>
+        <grade>10</grade>
+        <subjects>
+            <subject>History</subject>
+            <subject>Chemistry</subject>
+            <subject>Biology</subject>
+        </subjects>
+    </student>
+
+    <student>
+        <id>22</id>
+        <first_name>sanjay</first_name>
+        <age>17</age>
+        <grade>11</grade>
+        <subjects>
+            <subject>Physics</subject>
+            <subject>Math</subject>
+            <subject>History</subject>
+        </subjects>
+    </student>
+</students>
+
+    <student>
+        <id>23</id>
+        <first_name>mahi</first_name>
+        <age>15</age>
+        <grade>9</grade>
+        <subjects>
+            <subject>Biology</subject>
+            <subject>English</subject>
+            <subject>Geography</subject>
+        </subjects>
+    </student>
+</students>
